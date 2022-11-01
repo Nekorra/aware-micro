@@ -22,7 +22,7 @@ ext {
 }
 
 application {
-  mainClass.set('io.vertx.core.Launcher')
+  mainClassName = 'io.vertx.core.Launcher'
   applicationDefaultJvmArgs = ['-DlogLevel=INFO']
 }
 
